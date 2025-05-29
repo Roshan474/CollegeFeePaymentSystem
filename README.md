@@ -15,12 +15,43 @@
 
 ## ✅ Features
 
-- Add and update student fee payment records.
+- Add student fee payment records.
+- Update Student fee payment records.
 - Delete payments by ID.
-- View list of all payments.
+- Display list of all payments.
 - Generate fee reports:
   - Students with overdue payments
   - Payments made within a custom date range
+- Generate a report format.
+
+## 📂 Project Structure
+CollegeFeeWebApp/
+├── WebContent/
+│   ├── index.jsp
+│   ├── feepaymentadd.jsp
+│   ├── feepaymentupdate.jsp
+│   ├── feepaymentdelete.jsp
+│   ├── feepaymentdisplay.jsp
+│   ├── reports.jsp
+│   ├── report_form.jsp
+│   └── report_result.jsp
+├── src/
+│   └── com/
+│       ├── dao/
+│       │   └── FeePaymentDAO.java
+│       ├── model/
+│       │   └── FeePayment.java
+│       └── servlet/
+│           ├── AddFeePaymentServlet.java
+│           ├── UpdateFeePaymentServlet.java
+│           ├── DeleteFeePaymentServlet.java
+│           ├── DisplayFeePaymentsServlet.java
+│           ├── ReportServlet.java
+│           └── ReportCriteriaServlet.java
+└── WEB-INF/
+    └── web.xml
+
+
 
 ## 📸 Screenshots
 
