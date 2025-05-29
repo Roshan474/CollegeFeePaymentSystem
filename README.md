@@ -165,5 +165,5 @@ The `Output/` folder contains screenshots of the application UI including:
 5. Update your DB connection settings in `DBConnection.java`.
 6. Deploy the project on Tomcat and run.
 
---------------->THANK YOU<-------------
 
+## ----------------> THANK_YOU <---------------- ##
