@@ -78,6 +78,10 @@ Status VARCHAR(20) -- e.g., Paid, Overdue
 ## 📸 Screenshots
 
 The `Output/` folder contains screenshots of the application UI including:
+
+### 🔹 Front Page -
+![Front Page](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/frontpage.png)
+
 - Add Fee Payment
 - View Payments
 - Update/Delete Functionality
