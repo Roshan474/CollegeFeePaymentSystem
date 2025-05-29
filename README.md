@@ -25,6 +25,8 @@
 - Generate a report format.
 
 ## 📂 Project Structure
+
+```
 CollegeFeeWebApp/
 ├── WebContent/
 │   ├── index.jsp
@@ -51,6 +53,7 @@ CollegeFeeWebApp/
 └── WEB-INF/
     └── web.xml
 
+```
 
 
 ## 📸 Screenshots
