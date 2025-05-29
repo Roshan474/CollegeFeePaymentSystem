@@ -13,7 +13,8 @@
 - JDBC
 - Apache Tomcat (recommended)
 - Eclipse IDE (configured with project settings)
-
+<br>
+<br>
 ## ✅ Features
 
 - Add student fee payment records.
@@ -24,6 +25,8 @@
   - Students with overdue payments
   - Payments made within a custom date range
 - Generate a report format.
+<br>
+<br>
 
 ## 📂 Project Structure
 
@@ -55,6 +58,8 @@ CollegeFeeWebApp/
     └── web.xml
 
 ```
+<br>
+<br>
 
 ## 🗄️ Database Setup :
 
@@ -76,6 +81,9 @@ Amount DECIMAL(10,2),
 Status VARCHAR(20) -- e.g., Paid, Overdue
 );
 ```
+<br>
+<br>
+
 ## ⚙️ Installation & Setup :
 
 ### Step 1: Clone/Download the Project;
@@ -111,6 +119,9 @@ http://localhost:8080/CollegeFeePayment/
 This will open your homepage with modules like Add Fee payment, Update payment, delete payment, 
 display payment, and Generate Reports — as seen in the UI.
 
+<br>
+<br>
+
 ## 📸 Screenshots
 
 The `Output/` folder contains screenshots of the application UI including:
@@ -133,6 +144,8 @@ The `Output/` folder contains screenshots of the application UI including:
 ## Report Generation
 ![report_generation_date_range](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/report/date_range_report.png)
 ![report_generation_overdue](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/report/report_overdue.png)
+<br>
+<br>
 
 ## 🚀 Getting Started
 
@@ -152,12 +165,5 @@ The `Output/` folder contains screenshots of the application UI including:
 5. Update your DB connection settings in `DBConnection.java`.
 6. Deploy the project on Tomcat and run.
 
-## 🧠 Author
-
-- Developed by [Your Name Here]
-- Contributions are welcome!
-
-## 📝 License
-
-This project is for educational use. Modify or enhance it as per your academic needs.
+--------------->THANK YOU<-------------
 
