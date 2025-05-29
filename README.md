@@ -55,7 +55,26 @@ CollegeFeeWebApp/
 
 ```
 
+## 🗄️ Database Setup :
 
+### 1. Create Database :
+``` -> sql :-
+
+CREATE DATABASE IF NOT EXISTS collegefeedb;
+USE collegefeedb;
+```
+
+### 2. Create Table :
+``` -> sql :-
+CREATE TABLE FeePayments (
+PaymentID INT PRIMARY KEY AUTO_INCREMENT,
+StudentID INT,
+StudentName VARCHAR(100),
+PaymentDate DATE,
+Amount DECIMAL(10,2),
+Status VARCHAR(20) -- e.g., Paid, Overdue
+);
+```
 ## 📸 Screenshots
 
 The `Output/` folder contains screenshots of the application UI including:
