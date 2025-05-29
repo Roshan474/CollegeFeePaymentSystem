@@ -75,6 +75,41 @@ Amount DECIMAL(10,2),
 Status VARCHAR(20) -- e.g., Paid, Overdue
 );
 ```
+## ⚙️ Installation & Setup :
+
+### Step 1: Clone/Download the Project;
+Download all the project files and organize them based on the MVC project structure (Model, View, Controller, WEB-INF, etc.).
+
+### Step 2: Database Configuration :
+1. Start your MySQL or XAMPP server.
+2. Run the SQL script provided above to create the database and table:
+3. Update the DB connection in `ReservationDAO.java`:
+   ```java
+   connection = DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/hotel_management", 
+    "your_username", 
+    "your_password");
+   ```
+
+### Step 3: Add MySQL JDBC Driver :
+1. [Download MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/) from the official MySQL website.
+2. Add the downloaded JAR file to your project’s `WEB-INF/lib` directory.
+3. If using an IDE like Eclipse or IntelliJ, add it to your build path.
+
+### Step 4: Deploy to Tomcat :
+1. Create a Dynamic Web Project in your IDE (Eclipse recommended).
+2. Import all your Java source files, JSPs, and web resources.
+3. Deploy the project on Tomcat (version 9.0 or higher).
+4. Start the Tomcat server.
+
+### Step 5: Access the Application :
+Open your browser and go to:
+```
+http://localhost:8080/CollegeFeePayment/
+```
+This will open your homepage with modules like Add Fee payment, Update payment, delete payment, 
+display payment, and Generate Reports — as seen in the UI.
+
 ## 📸 Screenshots
 
 The `Output/` folder contains screenshots of the application UI including:
