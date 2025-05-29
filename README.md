@@ -82,10 +82,21 @@ The `Output/` folder contains screenshots of the application UI including:
 ### 🔹 Front Page -
 ![Front Page](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/frontpage.png)
 
-- Add Fee Payment
-- View Payments
-- Update/Delete Functionality
-- Report Generation
+## Add Fee Payment
+![Add payment](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/collegefeepayment.png)
+
+## display Payment
+![display payment](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/displaypayment.png)
+
+## Update Payment
+![update payment](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/update_id.png)
+
+## Delete Payment
+![delete payment](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/feepaymentdelete.png)
+
+## Report Generation
+![report_generation_date_range](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/report/date_range_report.png)
+![report_generation_overdue](https://github.com/Roshan474/CollegeFeePaymentSystem/blob/main/CollegeFeePayment/Output/report/report_overdue.png)
 
 ## 🚀 Getting Started
 
